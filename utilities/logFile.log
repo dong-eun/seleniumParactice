@@ -1,0 +1,292 @@
+2023-04-20 12:09:27,763 : INFO : test_formSubmission : Input First Name is : Dominic
+2023-04-20 12:09:27,846 : INFO : test_formSubmission : Input Email is : dominic@page.com
+2023-04-20 12:09:27,872 : INFO : test_formSubmission : Input Password
+2023-04-20 12:09:27,910 : INFO : test_formSubmission : Input Gender is : Male
+2023-04-20 12:09:28,140 : INFO : test_formSubmission : Input First Name is : Dominic2
+2023-04-20 12:09:28,140 : INFO : test_formSubmission : Input First Name is : Dominic2
+2023-04-20 12:09:28,171 : INFO : test_formSubmission : Input Email is : dominic2@page.com
+2023-04-20 12:09:28,171 : INFO : test_formSubmission : Input Email is : dominic2@page.com
+2023-04-20 12:09:28,193 : INFO : test_formSubmission : Input Password
+2023-04-20 12:09:28,193 : INFO : test_formSubmission : Input Password
+2023-04-20 12:09:28,231 : INFO : test_formSubmission : Input Gender is : Female
+2023-04-20 12:09:28,231 : INFO : test_formSubmission : Input Gender is : Female
+2023-04-20 12:09:28,443 : INFO : test_formSubmission : Input First Name is : Dominic3
+2023-04-20 12:09:28,443 : INFO : test_formSubmission : Input First Name is : Dominic3
+2023-04-20 12:09:28,443 : INFO : test_formSubmission : Input First Name is : Dominic3
+2023-04-20 12:09:28,468 : INFO : test_formSubmission : Input Email is : dominic3@page.com
+2023-04-20 12:09:28,468 : INFO : test_formSubmission : Input Email is : dominic3@page.com
+2023-04-20 12:09:28,468 : INFO : test_formSubmission : Input Email is : dominic3@page.com
+2023-04-20 12:09:28,490 : INFO : test_formSubmission : Input Password
+2023-04-20 12:09:28,490 : INFO : test_formSubmission : Input Password
+2023-04-20 12:09:28,490 : INFO : test_formSubmission : Input Password
+2023-04-20 12:09:28,528 : INFO : test_formSubmission : Input Gender is : Male
+2023-04-20 12:09:28,528 : INFO : test_formSubmission : Input Gender is : Male
+2023-04-20 12:09:28,528 : INFO : test_formSubmission : Input Gender is : Male
+2023-04-20 12:18:21,831 : INFO : test_e2e : Select Shop menu
+2023-04-20 12:18:22,789 : INFO : test_e2e : Getting all cards title
+2023-04-20 12:18:22,810 : INFO : test_e2e : iphone X
+2023-04-20 12:18:22,815 : INFO : test_e2e : Samsung Note 8
+2023-04-20 12:18:22,819 : INFO : test_e2e : Nokia Edge
+2023-04-20 12:18:22,823 : INFO : test_e2e : Blackberry
+2023-04-20 12:18:23,489 : INFO : test_e2e : Entering country name as ind
+2023-04-20 12:18:29,180 : INFO : test_e2e : Test received form application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2023-04-20 13:39:38,312 : INFO : test_formSubmission : Input First Name is : Dominic
+2023-04-20 13:39:38,396 : INFO : test_formSubmission : Input Email is : dominic@page.com
+2023-04-20 13:39:38,423 : INFO : test_formSubmission : Input Password
+2023-04-20 13:39:38,461 : INFO : test_formSubmission : Input Gender is : Male
+2023-04-20 13:39:38,678 : INFO : test_formSubmission : Input First Name is : Dominic2
+2023-04-20 13:39:38,678 : INFO : test_formSubmission : Input First Name is : Dominic2
+2023-04-20 13:39:38,705 : INFO : test_formSubmission : Input Email is : dominic2@page.com
+2023-04-20 13:39:38,705 : INFO : test_formSubmission : Input Email is : dominic2@page.com
+2023-04-20 13:39:38,727 : INFO : test_formSubmission : Input Password
+2023-04-20 13:39:38,727 : INFO : test_formSubmission : Input Password
+2023-04-20 13:39:38,765 : INFO : test_formSubmission : Input Gender is : Female
+2023-04-20 13:39:38,765 : INFO : test_formSubmission : Input Gender is : Female
+2023-04-20 13:39:38,970 : INFO : test_formSubmission : Input First Name is : Dominic3
+2023-04-20 13:39:38,970 : INFO : test_formSubmission : Input First Name is : Dominic3
+2023-04-20 13:39:38,970 : INFO : test_formSubmission : Input First Name is : Dominic3
+2023-04-20 13:39:38,994 : INFO : test_formSubmission : Input Email is : dominic3@page.com
+2023-04-20 13:39:38,994 : INFO : test_formSubmission : Input Email is : dominic3@page.com
+2023-04-20 13:39:38,994 : INFO : test_formSubmission : Input Email is : dominic3@page.com
+2023-04-20 13:39:39,016 : INFO : test_formSubmission : Input Password
+2023-04-20 13:39:39,016 : INFO : test_formSubmission : Input Password
+2023-04-20 13:39:39,016 : INFO : test_formSubmission : Input Password
+2023-04-20 13:39:39,055 : INFO : test_formSubmission : Input Gender is : Male
+2023-04-20 13:39:39,055 : INFO : test_formSubmission : Input Gender is : Male
+2023-04-20 13:39:39,055 : INFO : test_formSubmission : Input Gender is : Male
+2023-04-20 15:18:51,910 : INFO : test_formSubmission : Input First Name is : Dominic
+2023-04-20 15:18:51,995 : INFO : test_formSubmission : Input Email is : dominic@page.com
+2023-04-20 15:18:52,022 : INFO : test_formSubmission : Input Password
+2023-04-20 15:18:52,061 : INFO : test_formSubmission : Input Gender is : Male
+2023-04-20 15:18:52,289 : INFO : test_formSubmission : Input First Name is : Dominic2
+2023-04-20 15:18:52,289 : INFO : test_formSubmission : Input First Name is : Dominic2
+2023-04-20 15:18:52,313 : INFO : test_formSubmission : Input Email is : dominic2@page.com
+2023-04-20 15:18:52,313 : INFO : test_formSubmission : Input Email is : dominic2@page.com
+2023-04-20 15:18:52,336 : INFO : test_formSubmission : Input Password
+2023-04-20 15:18:52,336 : INFO : test_formSubmission : Input Password
+2023-04-20 15:18:52,374 : INFO : test_formSubmission : Input Gender is : Female
+2023-04-20 15:18:52,374 : INFO : test_formSubmission : Input Gender is : Female
+2023-04-20 15:18:52,584 : INFO : test_formSubmission : Input First Name is : Dominic3
+2023-04-20 15:18:52,584 : INFO : test_formSubmission : Input First Name is : Dominic3
+2023-04-20 15:18:52,584 : INFO : test_formSubmission : Input First Name is : Dominic3
+2023-04-20 15:18:52,609 : INFO : test_formSubmission : Input Email is : dominic3@page.com
+2023-04-20 15:18:52,609 : INFO : test_formSubmission : Input Email is : dominic3@page.com
+2023-04-20 15:18:52,609 : INFO : test_formSubmission : Input Email is : dominic3@page.com
+2023-04-20 15:18:52,631 : INFO : test_formSubmission : Input Password
+2023-04-20 15:18:52,631 : INFO : test_formSubmission : Input Password
+2023-04-20 15:18:52,631 : INFO : test_formSubmission : Input Password
+2023-04-20 15:18:52,673 : INFO : test_formSubmission : Input Gender is : Male
+2023-04-20 15:18:52,673 : INFO : test_formSubmission : Input Gender is : Male
+2023-04-20 15:18:52,673 : INFO : test_formSubmission : Input Gender is : Male
+2023-04-20 15:18:57,122 : INFO : test_e2e : Select Shop menu
+2023-04-20 15:18:58,182 : INFO : test_e2e : Getting all cards title
+2023-04-20 15:18:58,200 : INFO : test_e2e : iphone X
+2023-04-20 15:18:58,210 : INFO : test_e2e : Samsung Note 8
+2023-04-20 15:18:58,219 : INFO : test_e2e : Nokia Edge
+2023-04-20 15:18:58,227 : INFO : test_e2e : Blackberry
+2023-04-20 15:18:58,298 : INFO : test_e2e : Entering country name as ind
+2023-04-20 15:19:03,461 : INFO : test_e2e : Test received form application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2023-04-20 15:43:15,201 : INFO : test_formSubmission : Input First Name is : Dominic
+2023-04-20 15:43:15,284 : INFO : test_formSubmission : Input Email is : dominic@page.com
+2023-04-20 15:43:15,312 : INFO : test_formSubmission : Input Password
+2023-04-20 15:43:15,351 : INFO : test_formSubmission : Input Gender is : Male
+2023-04-20 15:43:15,571 : INFO : test_formSubmission : Input First Name is : Dominic2
+2023-04-20 15:43:15,571 : INFO : test_formSubmission : Input First Name is : Dominic2
+2023-04-20 15:43:15,594 : INFO : test_formSubmission : Input Email is : dominic2@page.com
+2023-04-20 15:43:15,594 : INFO : test_formSubmission : Input Email is : dominic2@page.com
+2023-04-20 15:43:15,616 : INFO : test_formSubmission : Input Password
+2023-04-20 15:43:15,616 : INFO : test_formSubmission : Input Password
+2023-04-20 15:43:15,656 : INFO : test_formSubmission : Input Gender is : Female
+2023-04-20 15:43:15,656 : INFO : test_formSubmission : Input Gender is : Female
+2023-04-20 15:43:15,868 : INFO : test_formSubmission : Input First Name is : Dominic3
+2023-04-20 15:43:15,868 : INFO : test_formSubmission : Input First Name is : Dominic3
+2023-04-20 15:43:15,868 : INFO : test_formSubmission : Input First Name is : Dominic3
+2023-04-20 15:43:15,894 : INFO : test_formSubmission : Input Email is : dominic3@page.com
+2023-04-20 15:43:15,894 : INFO : test_formSubmission : Input Email is : dominic3@page.com
+2023-04-20 15:43:15,894 : INFO : test_formSubmission : Input Email is : dominic3@page.com
+2023-04-20 15:43:15,916 : INFO : test_formSubmission : Input Password
+2023-04-20 15:43:15,916 : INFO : test_formSubmission : Input Password
+2023-04-20 15:43:15,916 : INFO : test_formSubmission : Input Password
+2023-04-20 15:43:15,956 : INFO : test_formSubmission : Input Gender is : Male
+2023-04-20 15:43:15,956 : INFO : test_formSubmission : Input Gender is : Male
+2023-04-20 15:43:15,956 : INFO : test_formSubmission : Input Gender is : Male
+2023-04-20 15:43:19,331 : INFO : test_e2e : Select Shop menu
+2023-04-20 15:43:20,617 : INFO : test_e2e : Getting all cards title
+2023-04-20 15:43:20,635 : INFO : test_e2e : iphone X
+2023-04-20 15:43:20,646 : INFO : test_e2e : Samsung Note 8
+2023-04-20 15:43:20,654 : INFO : test_e2e : Nokia Edge
+2023-04-20 15:43:20,662 : INFO : test_e2e : Blackberry
+2023-04-20 15:43:20,724 : INFO : test_e2e : Entering country name as ind
+2023-04-20 15:43:25,883 : INFO : test_e2e : Test received form application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2023-04-20 15:44:07,868 : INFO : test_formSubmission : Input First Name is : Dominic
+2023-04-20 15:44:07,947 : INFO : test_formSubmission : Input Email is : dominic@page.com
+2023-04-20 15:44:07,974 : INFO : test_formSubmission : Input Password
+2023-04-20 15:44:08,015 : INFO : test_formSubmission : Input Gender is : Male
+2023-04-20 15:44:08,245 : INFO : test_formSubmission : Input First Name is : Dominic2
+2023-04-20 15:44:08,245 : INFO : test_formSubmission : Input First Name is : Dominic2
+2023-04-20 15:44:08,268 : INFO : test_formSubmission : Input Email is : dominic2@page.com
+2023-04-20 15:44:08,268 : INFO : test_formSubmission : Input Email is : dominic2@page.com
+2023-04-20 15:44:08,290 : INFO : test_formSubmission : Input Password
+2023-04-20 15:44:08,290 : INFO : test_formSubmission : Input Password
+2023-04-20 15:44:08,329 : INFO : test_formSubmission : Input Gender is : Female
+2023-04-20 15:44:08,329 : INFO : test_formSubmission : Input Gender is : Female
+2023-04-20 15:44:08,540 : INFO : test_formSubmission : Input First Name is : Dominic3
+2023-04-20 15:44:08,540 : INFO : test_formSubmission : Input First Name is : Dominic3
+2023-04-20 15:44:08,540 : INFO : test_formSubmission : Input First Name is : Dominic3
+2023-04-20 15:44:08,565 : INFO : test_formSubmission : Input Email is : dominic3@page.com
+2023-04-20 15:44:08,565 : INFO : test_formSubmission : Input Email is : dominic3@page.com
+2023-04-20 15:44:08,565 : INFO : test_formSubmission : Input Email is : dominic3@page.com
+2023-04-20 15:44:08,588 : INFO : test_formSubmission : Input Password
+2023-04-20 15:44:08,588 : INFO : test_formSubmission : Input Password
+2023-04-20 15:44:08,588 : INFO : test_formSubmission : Input Password
+2023-04-20 15:44:08,624 : INFO : test_formSubmission : Input Gender is : Male
+2023-04-20 15:44:08,624 : INFO : test_formSubmission : Input Gender is : Male
+2023-04-20 15:44:08,624 : INFO : test_formSubmission : Input Gender is : Male
+2023-04-20 15:44:12,135 : INFO : test_e2e : Select Shop menu
+2023-04-20 15:44:13,450 : INFO : test_e2e : Getting all cards title
+2023-04-20 15:44:13,474 : INFO : test_e2e : iphone X
+2023-04-20 15:44:13,487 : INFO : test_e2e : Samsung Note 8
+2023-04-20 15:44:13,497 : INFO : test_e2e : Nokia Edge
+2023-04-20 15:44:13,505 : INFO : test_e2e : Blackberry
+2023-04-20 15:44:13,576 : INFO : test_e2e : Entering country name as ind
+2023-04-20 15:44:18,757 : INFO : test_e2e : Test received form application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2023-04-20 20:15:41,485 : INFO : test_formSubmission : Input First Name is : Dominic
+2023-04-20 20:15:41,571 : INFO : test_formSubmission : Input Email is : dominic@page.com
+2023-04-20 20:15:41,598 : INFO : test_formSubmission : Input Password
+2023-04-20 20:15:41,637 : INFO : test_formSubmission : Input Gender is : Male
+2023-04-20 20:15:41,861 : INFO : test_formSubmission : Input First Name is : Dominic2
+2023-04-20 20:15:41,861 : INFO : test_formSubmission : Input First Name is : Dominic2
+2023-04-20 20:15:41,897 : INFO : test_formSubmission : Input Email is : dominic2@page.com
+2023-04-20 20:15:41,897 : INFO : test_formSubmission : Input Email is : dominic2@page.com
+2023-04-20 20:15:41,919 : INFO : test_formSubmission : Input Password
+2023-04-20 20:15:41,919 : INFO : test_formSubmission : Input Password
+2023-04-20 20:15:41,956 : INFO : test_formSubmission : Input Gender is : Female
+2023-04-20 20:15:41,956 : INFO : test_formSubmission : Input Gender is : Female
+2023-04-20 20:15:42,169 : INFO : test_formSubmission : Input First Name is : Dominic3
+2023-04-20 20:15:42,169 : INFO : test_formSubmission : Input First Name is : Dominic3
+2023-04-20 20:15:42,169 : INFO : test_formSubmission : Input First Name is : Dominic3
+2023-04-20 20:15:42,198 : INFO : test_formSubmission : Input Email is : dominic3@page.com
+2023-04-20 20:15:42,198 : INFO : test_formSubmission : Input Email is : dominic3@page.com
+2023-04-20 20:15:42,198 : INFO : test_formSubmission : Input Email is : dominic3@page.com
+2023-04-20 20:15:42,221 : INFO : test_formSubmission : Input Password
+2023-04-20 20:15:42,221 : INFO : test_formSubmission : Input Password
+2023-04-20 20:15:42,221 : INFO : test_formSubmission : Input Password
+2023-04-20 20:15:42,259 : INFO : test_formSubmission : Input Gender is : Male
+2023-04-20 20:15:42,259 : INFO : test_formSubmission : Input Gender is : Male
+2023-04-20 20:15:42,259 : INFO : test_formSubmission : Input Gender is : Male
+2023-04-20 20:15:45,802 : INFO : test_e2e : Select Shop menu
+2023-04-20 20:15:47,836 : INFO : test_e2e : Getting all cards title
+2023-04-20 20:15:47,855 : INFO : test_e2e : iphone X
+2023-04-20 20:15:47,866 : INFO : test_e2e : Samsung Note 8
+2023-04-20 20:15:47,875 : INFO : test_e2e : Nokia Edge
+2023-04-20 20:15:47,884 : INFO : test_e2e : Blackberry
+2023-04-20 20:15:47,946 : INFO : test_e2e : Entering country name as ind
+2023-04-20 20:15:53,126 : INFO : test_e2e : Test received form application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2023-04-21 18:41:53,934 : INFO : test_formSubmission : Input First Name is : Dominic2
+2023-04-21 18:41:54,016 : INFO : test_formSubmission : Input Email is : dominic2@page.com
+2023-04-21 18:41:54,048 : INFO : test_formSubmission : Input Password
+2023-04-21 18:41:54,099 : INFO : test_formSubmission : Input Gender is : Feamale
+2023-04-21 18:42:13,248 : INFO : test_formSubmission : Input First Name is : Dominic2
+2023-04-21 18:42:13,326 : INFO : test_formSubmission : Input Email is : dominic2@page.com
+2023-04-21 18:42:13,352 : INFO : test_formSubmission : Input Password
+2023-04-21 18:42:13,392 : INFO : test_formSubmission : Input Gender is : Feamale
+2023-04-22 06:41:39,616 : INFO : test_formSubmission : Input First Name is : Dominic2
+2023-04-22 06:41:39,698 : INFO : test_formSubmission : Input Email is : dominic2@page.com
+2023-04-22 06:41:39,726 : INFO : test_formSubmission : Input Password
+2023-04-22 06:41:39,765 : INFO : test_formSubmission : Input Gender is : Female
+2023-04-23 16:23:11,182 : INFO : test_formSubmission : Input First Name is : Dominic2
+2023-04-23 16:23:11,263 : INFO : test_formSubmission : Input Email is : dominic2@page.com
+2023-04-23 16:23:11,290 : INFO : test_formSubmission : Input Password
+2023-04-23 16:23:11,330 : INFO : test_formSubmission : Input Gender is : Female
+2023-04-23 16:24:39,688 : INFO : test_formSubmission : Input First Name is : Dominic2
+2023-04-23 16:24:39,767 : INFO : test_formSubmission : Input Email is : dominic2@page.com
+2023-04-23 16:24:39,795 : INFO : test_formSubmission : Input Password
+2023-04-23 16:24:39,834 : INFO : test_formSubmission : Input Gender is : Female
+2023-04-23 16:24:46,365 : INFO : test_e2e : Select Shop menu
+2023-04-23 16:24:47,569 : INFO : test_e2e : Getting all cards title
+2023-04-23 16:24:47,583 : INFO : test_e2e : iphone X
+2023-04-23 16:24:47,592 : INFO : test_e2e : Samsung Note 8
+2023-04-23 16:24:47,600 : INFO : test_e2e : Nokia Edge
+2023-04-23 16:24:47,608 : INFO : test_e2e : Blackberry
+2023-04-23 16:24:47,679 : INFO : test_e2e : Entering country name as ind
+2023-04-23 16:24:52,888 : INFO : test_e2e : Test received form application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2023-04-23 16:25:12,667 : INFO : test_formSubmission : Input First Name is : Dominic2
+2023-04-23 16:25:12,748 : INFO : test_formSubmission : Input Email is : dominic2@page.com
+2023-04-23 16:25:12,774 : INFO : test_formSubmission : Input Password
+2023-04-23 16:25:12,813 : INFO : test_formSubmission : Input Gender is : Female
+2023-04-23 16:25:19,393 : INFO : test_e2e : Select Shop menu
+2023-04-23 16:25:20,488 : INFO : test_e2e : Getting all cards title
+2023-04-23 16:25:20,506 : INFO : test_e2e : iphone X
+2023-04-23 16:25:20,516 : INFO : test_e2e : Samsung Note 8
+2023-04-23 16:25:20,525 : INFO : test_e2e : Nokia Edge
+2023-04-23 16:25:20,533 : INFO : test_e2e : Blackberry
+2023-04-23 16:25:20,605 : INFO : test_e2e : Entering country name as ind
+2023-04-23 16:25:25,804 : INFO : test_e2e : Test received form application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2023-04-24 12:40:35,787 : INFO : test_formSubmission : Input First Name is : Dominic2
+2023-04-24 12:40:35,870 : INFO : test_formSubmission : Input Email is : dominic2@page.com
+2023-04-24 12:40:35,898 : INFO : test_formSubmission : Input Password
+2023-04-24 12:40:35,936 : INFO : test_formSubmission : Input Gender is : Female
+2023-04-24 12:45:11,201 : INFO : test_formSubmission : Input First Name is : Dominic2
+2023-04-24 12:45:11,281 : INFO : test_formSubmission : Input Email is : dominic2@page.com
+2023-04-24 12:45:11,308 : INFO : test_formSubmission : Input Password
+2023-04-24 12:45:11,346 : INFO : test_formSubmission : Input Gender is : Female
+2023-04-24 13:06:48,038 : INFO : test_formSubmission : Input First Name is : Dominic2
+2023-04-24 13:06:48,127 : INFO : test_formSubmission : Input Email is : dominic2@page.com
+2023-04-24 13:06:48,156 : INFO : test_formSubmission : Input Password
+2023-04-24 13:06:48,195 : INFO : test_formSubmission : Input Gender is : Female
+2023-04-24 13:09:14,859 : INFO : test_formSubmission : Input First Name is : Dominic2
+2023-04-24 13:09:14,937 : INFO : test_formSubmission : Input Email is : dominic2@page.com
+2023-04-24 13:09:14,963 : INFO : test_formSubmission : Input Password
+2023-04-24 13:09:15,003 : INFO : test_formSubmission : Input Gender is : Female
+2023-04-24 13:13:06,401 : INFO : test_formSubmission : Input First Name is : Dominic2
+2023-04-24 13:13:06,491 : INFO : test_formSubmission : Input Email is : dominic2@page.com
+2023-04-24 13:13:06,518 : INFO : test_formSubmission : Input Password
+2023-04-24 13:13:06,557 : INFO : test_formSubmission : Input Gender is : Female
+2023-04-24 13:14:13,550 : INFO : test_formSubmission : Input First Name is : Dominic2
+2023-04-24 13:14:13,639 : INFO : test_formSubmission : Input Email is : dominic2@page.com
+2023-04-24 13:14:13,666 : INFO : test_formSubmission : Input Password
+2023-04-24 13:14:13,706 : INFO : test_formSubmission : Input Gender is : Female
+2023-04-24 13:16:05,851 : INFO : test_formSubmission : Input First Name is : Dominic2
+2023-04-24 13:16:05,940 : INFO : test_formSubmission : Input Email is : dominic2@page.com
+2023-04-24 13:16:05,967 : INFO : test_formSubmission : Input Password
+2023-04-24 13:16:06,006 : INFO : test_formSubmission : Input Gender is : Female
+2023-04-24 13:16:25,778 : INFO : test_formSubmission : Input First Name is : Dominic2
+2023-04-24 13:16:25,870 : INFO : test_formSubmission : Input Email is : dominic2@page.com
+2023-04-24 13:16:25,896 : INFO : test_formSubmission : Input Password
+2023-04-24 13:16:25,935 : INFO : test_formSubmission : Input Gender is : Female
+2023-04-24 13:26:26,023 : INFO : test_formSubmission : Input First Name is : Dominic2
+2023-04-24 13:26:26,106 : INFO : test_formSubmission : Input Email is : dominic2@page.com
+2023-04-24 13:26:26,132 : INFO : test_formSubmission : Input Password
+2023-04-24 13:26:26,171 : INFO : test_formSubmission : Input Gender is : Female
+2023-04-24 13:28:49,775 : INFO : test_formSubmission : Input First Name is : Dominic2
+2023-04-24 13:28:49,857 : INFO : test_formSubmission : Input Email is : dominic2@page.com
+2023-04-24 13:28:49,884 : INFO : test_formSubmission : Input Password
+2023-04-24 13:28:49,925 : INFO : test_formSubmission : Input Gender is : Female
+2023-04-25 12:02:34,308 : INFO : test_formSubmission : Input First Name is : Dominic2
+2023-04-25 12:02:34,392 : INFO : test_formSubmission : Input Email is : dominic2@page.com
+2023-04-25 12:02:34,419 : INFO : test_formSubmission : Input Password
+2023-04-25 12:02:34,461 : INFO : test_formSubmission : Input Gender is : Female
+2023-04-25 14:14:59,866 : INFO : test_e2e : Select Shop menu
+2023-04-25 14:15:00,816 : INFO : test_e2e : Getting all cards title
+2023-04-25 14:15:00,836 : INFO : test_e2e : iphone X
+2023-04-25 14:15:00,846 : INFO : test_e2e : Samsung Note 8
+2023-04-25 14:15:00,855 : INFO : test_e2e : Nokia Edge
+2023-04-25 14:15:00,863 : INFO : test_e2e : Blackberry
+2023-04-25 14:15:00,929 : INFO : test_e2e : Entering country name as ind
+2023-04-25 14:15:06,136 : INFO : test_e2e : Test received form application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2023-04-25 14:18:31,186 : INFO : test_formSubmission : Input First Name is : Dominic2
+2023-04-25 14:18:31,268 : INFO : test_formSubmission : Input Email is : dominic2@page.com
+2023-04-25 14:18:31,296 : INFO : test_formSubmission : Input Password
+2023-04-25 14:18:31,333 : INFO : test_formSubmission : Input Gender is : Female
+2023-05-03 15:09:15,875 : INFO : test_formSubmission : Input First Name is : Dominic2
+2023-05-03 15:09:15,952 : INFO : test_formSubmission : Input Email is : dominic2@page.com
+2023-05-03 15:09:15,979 : INFO : test_formSubmission : Input Password
+2023-05-03 15:09:16,019 : INFO : test_formSubmission : Input Gender is : Female
