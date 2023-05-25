@@ -26,11 +26,6 @@ class TestHomePage(BaseClass):
 
     self.waitTime(3)
 
-    # self.driver.refresh()
-
-  # @pytest.fixture(params=HomePageData.test_HomePage_data)
-  # def getData(self, request):
-  #   return request.param
   @pytest.fixture(params=HomePageData.getTestData("TestCase2"))
   def getData(self, request):
     return request.param

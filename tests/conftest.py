@@ -1,9 +1,10 @@
 import pytest
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.firefox.service import Service as FirefoxService
+from selenium.webdriver.firefox.options import Options as FirefoxOptions
 from webdriver_manager.firefox import GeckoDriverManager
 
 driver = None
@@ -21,7 +22,7 @@ def setup(request):
   #Chrome 브라우저 선택
   if browser_name == "chrome":
     print("Chrome Driver")
-    options = Options()
+    options = ChromeOptions()
     options.add_experimental_option("detach", True)
     service = ChromeService(executable_path=ChromeDriverManager().install())
     driver = webdriver.Chrome(service=service, options=options)
@@ -60,16 +61,16 @@ def pytest_runtest_makereport(item):
     extra = getattr(report, 'extra', [])
 
     if report.when == 'call' or report.when == "setup":
-        xfail = hasattr(report, 'wasxfail')
-        if (report.skipped and xfail) or (report.failed and not xfail):
-            file_name = report.nodeid.replace("::", "_") + ".png"
-            _capture_screenshot(file_name)
-            if file_name:
-                html = '<div><img src="%s" alt="screenshot" style="width:304px;height:228px;" ' \
-                       'onclick="window.open(this.src)" align="right"/></div>' % file_name
-                extra.append(pytest_html.extras.html(html))
-        report.extra = extra
+      xfail = hasattr(report, 'wasxfail')
+      if (report.skipped and xfail) or (report.failed and not xfail):
+        file_name = report.nodeid.replace("::", "_") + ".png"
+        _capture_screenshot(file_name)
+        if file_name:
+          html = '<div><img src="%s" alt="screenshot" style="width:304px;height:228px;" ' \
+                 'onclick="window.open(this.src)" align="right"/></div>' % file_name
+          extra.append(pytest_html.extras.html(html))
+      report.extra = extra
 
 
 def _capture_screenshot(name):
-        driver.get_screenshot_as_file(name)
+  driver.get_screenshot_as_file(name)
