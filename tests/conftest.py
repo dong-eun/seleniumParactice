@@ -4,7 +4,6 @@ from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.firefox.service import Service as FirefoxService
-from selenium.webdriver.firefox.options import Options as FirefoxOptions
 from webdriver_manager.firefox import GeckoDriverManager
 
 driver = None
@@ -39,15 +38,15 @@ def setup(request):
   yield
   driver.close()
 
-# @pytest.fixture(params=HomePageData.getTestData)
-# def getData(request):
-#   return request.param
+  # @pytest.fixture(params=HomePageData.getTestData)
+  # def getData(request):
+  #   return request.param
 
-# @pytest.fixture(params=HomePageData.getTestData)
-# def getData(request):
-#   return request.param# @pytest.fixture(params=HomePageData.getTestData)
-# # def getData(request):
-# #   return request.param
+  # @pytest.fixture(params=HomePageData.getTestData)
+  # def getData(request):
+  #   return request.param# @pytest.fixture(params=HomePageData.getTestData)
+  # # def getData(request):
+  # #   return request.param
 
 @pytest.mark.hookwrapper
 def pytest_runtest_makereport(item):

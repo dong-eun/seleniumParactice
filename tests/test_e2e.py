@@ -1,6 +1,4 @@
-import pytest
 from selenium.webdriver.common.by import By
-
 from pageObject.HomePage import HomePage
 from utilities.BaseClass import BaseClass
 
