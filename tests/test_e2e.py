@@ -1,4 +1,5 @@
 from selenium.webdriver.common.by import By
+
 from pageObject.HomePage import HomePage
 from utilities.BaseClass import BaseClass
 
@@ -28,6 +29,6 @@ class TestOne(BaseClass):
     self.driver.find_element(By.CSS_SELECTOR, "input[type='submit']").click()
     successText = self.driver.find_element(By.CLASS_NAME, "alert-success").text
     log.info("Test received form application is "+successText)
-    assert "Sucdfsdfgcess! Thank you!" in successText
+    assert "Success! Thank you!" in successText
     self.driver.get_screenshot_as_file('./sample.png')
     self.waitTime(5)
