@@ -4,7 +4,9 @@ from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.firefox.service import Service as FirefoxService
+from selenium.webdriver.firefox.options import Options as FirefoxOptions
 from webdriver_manager.firefox import GeckoDriverManager
+from selenium.webdriver.safari.options import Options as SafariOptions
 
 driver = None
 
@@ -20,16 +22,36 @@ def setup(request):
   browser_name = request.config.getoption("browser_name")
   #Chrome 브라우저 선택
   if browser_name == "chrome":
-    print("Chrome Driver")
-    options = ChromeOptions()
-    options.add_experimental_option("detach", True)
-    service = ChromeService(executable_path=ChromeDriverManager().install())
-    driver = webdriver.Chrome(service=service, options=options)
+    chrome_options = ChromeOptions()
+    chrome_options.add_experimental_option("detach", True) # Chrome 종료 시 WebDriver 세션 유지
+    chrome_options.add_experimental_option("useAutomationExtension", False) # Chrome 자동화 확장 미 사용
+    chrome_options.add_experimental_option("excludeSwitches", ['enable-automation']) # Chrome 자동화 기능 비활성화
+    chrome_options.add_argument("--disable-blink-features=AutomationControlled") # 자동화 감지 Blink 기능 비활성
+    chrome_options.add_argument("--disable-extensions") # 확장프로그램 미사용
+    chrome_options.add_argument("--disable-infobars") # 정보 표시줄 비활성화
+    chrome_options.add_argument("--disable-notifications") # 알림 비활성화
+    chrome_options.add_argument("--disable-popup-blocking") # 팝업 차단 비활성화
+    chrom_service = ChromeService(executable_path=ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=chrom_service, options=chrome_options)
   #Firefox 브라우저 선택
   elif browser_name == "firefox":
-    print("Firefox Driver")
-    service = FirefoxService(executable_path=GeckoDriverManager().install())
-    driver = webdriver.Firefox(service=service)
+    firefox_options = FirefoxOptions()
+    firefox_options.set_preference("dom.webdriver.enabled", False) # WebDriver 속성 감지 비활성화
+    firefox_options.set_preference("dom.webnotifications.enabled", False) # 웹 알림을 표시 비활성화
+    firefox_options.set_preference("dom.push.enabled", False) # 푸시 알림 비활성화
+    firefox_options.set_preference("useAutomationExtension", False) # 자동확장 기능 비활성화
+    firefox_service = FirefoxService(executable_path=GeckoDriverManager().install())
+    driver = webdriver.Firefox(service=firefox_service, options=firefox_options)
+  # Safari 브라우저 선택
+  elif browser_name == "safari":
+    safari_options = SafariOptions()
+    safari_options.automatic_inspection = True # 자동화 감지 비활성화
+    safari_options.preferences = {
+      "security.enable_java": False, # java 미 실행
+      "security.enable_java_script": True, # java script 실행
+      "browser.popups.showPopupBlocker": False # 팝업 차단 비활성화
+    }
+    driver = webdriver.Safari(options=safari_options)
 
   driver.get("https://rahulshettyacademy.com/angularpractice/")
   driver.implicitly_wait(5)
